@@ -1,0 +1,92 @@
+* {
+    width: 480px;
+    height: 768px;
+
+}
+div {
+    display: inline-block;
+    background-color: #888;
+    border: 0.5px solid #555;
+}
+#a {
+    display: block;
+    max-width:100%;
+    height: 9.76%;
+}
+#b {
+    max-width: 100%;
+    height: 19.5%;
+}
+#c {
+    max-width: 100%;
+    height: 16.27%;
+}
+#d {
+    max-width: 100%;
+    height: 16.27%;
+}
+#e {
+    max-width: 50%;
+    height: 32.55%;
+}
+#f {
+    max-width: 50%;
+    height: 32.55%;
+    float: right;
+}
+#g {
+    max-width: 50%;
+    height: 32.55%;
+}
+#h {
+    max-width: 50%;
+    height: 32.55%;
+    float: right;
+}
+#foot {
+    max-width:100%;
+    height: 10.4%;
+}
+
+@media only screen and (min-width: 481px) {
+    main {
+        width: 960px;
+        height: 768;
+    }
+    #a {
+        max-width:100%;
+        height: 13%;
+    }
+    #b {
+        max-width: 20.83%;
+        height: 78.13%;
+    }
+    #c {
+        max-width: 39.58%;
+        height: 26%;
+    }
+    #d {
+        max-width: 39.58%;
+        height: 26%;
+    }
+    #e {
+        max-width: 19.79%;
+        height: 32.55%;
+    }
+    #f {
+        max-width: 19.79%;
+        height: 32.55%;
+    }
+    #g {
+        max-width: 19.79%;
+        height: 32.55%;
+    }
+    #h {
+        max-width: 19.79%;
+        height: 32.55%;
+    }
+    #foot {
+        max-width:79.16%;
+        height: 19.53%;
+    }
+}

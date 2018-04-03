@@ -1,0 +1,61 @@
+main {
+    float: left;
+    width: 480px;
+    height: 768px;
+    background-color: gray;
+    margin: 0px auto;
+}
+div {
+    background-color: gray;
+    border: 0.5px solid #555;
+}
+img {
+    background-color: gray;
+    width: 100%;
+    border: 0.5px solid #555;
+}
+#foot {
+    background-color: gray;
+}
+.middle {
+    width: 100%;
+}
+.left {
+    float: left;
+    width: 49.78%;
+    z-index: 5;
+}
+.right {
+    float: right;
+    width: 49.78%;
+    z-index: 3;
+}
+@media only screen and (min-width: 481px) {
+    main {
+        width: 960px;
+        height: 768;
+    }
+#a {
+    background-color:gray;
+    width: 960px;
+    height: 100px;
+}
+#b {
+    width: 200px;
+    height: 600px;
+}
+#c {
+    width: 380px;
+    height: 200px;
+    float: right;
+}
+#d {
+    width: 380px;
+    height: 200px;
+    float: right;
+}
+.middle {
+    width: 190px;
+    height: 250px;
+}
+}
