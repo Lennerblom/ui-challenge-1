@@ -1,21 +1,23 @@
 * {
     width: 480px;
     height: 768px;
+    margin: auto;
 
 }
+
 div {
-    display: inline-block;
     background-color: lightgray;
     border: 0.5px solid #555;
     text-align: left;
-    /* padding-left: 10px; */
 }
-p {
+.smaller {
     text-align: center;
-    margin: 0px auto;
+}
+
+.bigger {
+    display: none;
 }
 #a {
-    display: block;
     max-width:100%;
     height: 9.76%;
 }
@@ -34,6 +36,7 @@ p {
 #e {
     max-width: 49.5%;
     height: 32.55%;
+    float: left;
 }
 #f {
     max-width: 49.5%;
@@ -43,6 +46,7 @@ p {
 #g {
     max-width: 49.5%;
     height: 32.55%;
+    float: left;
 }
 #h {
     max-width: 49.5%;
@@ -58,9 +62,14 @@ p {
     * {
         width: 960px;
         height: 768;
+        margin: auto;
     }
-    div {
-        display: inline-block;
+    .smaller {
+        display: none;
+    }
+    .bigger {
+        display: inline;
+        text-align: center;
     }
     #a {
         max-width:100%;
