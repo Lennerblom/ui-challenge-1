@@ -1,0 +1,118 @@
+* {
+    width: 480px;
+    height: 768px;
+    margin: auto;
+}
+
+div {
+    background-color: lightgray;
+    border: 0.5px solid #555;
+    text-align: left;
+}
+.smaller {
+    text-align: center;
+}
+
+.bigger {
+    display: none;
+}
+#a {
+    max-width:100%;
+    height: 9.76%;
+}
+#b {
+    max-width: 100%;
+    height: 19.5%;
+}
+#c {
+    max-width: 100%;
+    height: 16.27%;
+}
+#d {
+    max-width: 100%;
+    height: 16.27%;
+}
+#e {
+    max-width: 49.5%;
+    height: 32.55%;
+    float: left;
+}
+#f {
+    max-width: 49.5%;
+    height: 32.55%;
+    float: left;
+}
+#g {
+    max-width: 49.5%;
+    height: 32.55%;
+    float: left;
+}
+#h {
+    max-width: 49.5%;
+    height: 32.55%;
+    float: left;
+}
+#foot {
+    max-width:100%;
+    height: 10.4%;
+}
+
+@media only screen and (min-width: 481px) {
+    * {
+        width: 960px;
+        height: 768;
+        margin: auto;
+    }
+    .smaller {
+        display: none;
+    }
+    .bigger {
+        display:inline;
+        text-align: center;
+    }
+    #a {
+        max-width:100%;
+        height: 13%;
+    }
+    #b {
+        max-width: 20.8%;
+        height: 78%;
+        float: left;
+    }
+    #c {
+        max-width: 39.49%;
+        height: 26%;
+        float: left;
+    }
+    #d {
+        max-width: 39.40%;
+        height: 26%;
+        float: left;
+    }
+    #e {
+        max-width: 19.62%;
+        height: 32.55%;
+        float: left;
+    }
+    #f {
+        max-width: 19.69%;
+        height: 32.55%;
+        float: left;
+    }
+    #g {
+        max-width: 19.69%;
+        height: 32.55%;
+        float: left;
+        text-align: center;
+    }
+    #h {
+        max-width: 19.67%;
+        height: 32.55%;
+        float: left;
+    }
+    #foot {
+        max-width:78.9%;
+        height: 19.29%;
+        float: left;
+    }
+}
