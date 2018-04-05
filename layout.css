@@ -2,7 +2,6 @@
     width: 480px;
     height: 768px;
     margin: auto;
-
 }
 
 div {
@@ -68,7 +67,7 @@ div {
         display: none;
     }
     .bigger {
-        display: inline;
+        display:inline;
         text-align: center;
     }
     #a {
@@ -101,18 +100,19 @@ div {
         float: left;
     }
     #g {
-        max-width: 19.62%;
+        max-width: 19.69%;
         height: 32.55%;
         float: left;
+        text-align: center;
     }
     #h {
-        max-width: 19.62%;
+        max-width: 19.67%;
         height: 32.55%;
         float: left;
     }
     #foot {
         max-width:78.9%;
-        height: 19.27%;
+        height: 19.29%;
         float: left;
     }
 }
